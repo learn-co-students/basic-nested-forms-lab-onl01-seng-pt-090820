@@ -4,6 +4,7 @@
 
 <ul>
 <% @recipe.ingredients.each do |ingredient| %>
+binding.pry
   <li><%= "#{ingredient.name} X #{ingredient.quantity}" %></li>
 <% end %>
 </ul>
